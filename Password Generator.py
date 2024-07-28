@@ -27,7 +27,6 @@ for i in range(0,nr_symbols):
 for i in range(0, nr_numbers):
     password = password + random.choice(numbers)
 
-
 for i in range(0, len(password)):
     randomPassword = randomPassword + random.choice(password)
 
